@@ -1,0 +1,892 @@
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+<head>
+
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval'" />
+    <meta http-equiv="Content-Type" content="application/json; charset=UTF-8">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <meta http-equiv="PRAGMA" content="NO-CACHE">
+    <meta http-equiv="EXPIRES" content="0">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <title>EPFO | Member Passbook</title>
+    <link href="static/bootstrap/bootstrap.css%3Bjsessionid=7qtB95gAYIeLZmYQIe-OSpPD.4faa1f82-7d88-354f-a880-a67d43a8b9e4%3Ftoken=Ox6tv9YU1YhxbIH.css" rel="stylesheet">
+    <link href="static/jquery/jquery-ui.css%3Bjsessionid=7qtB95gAYIeLZmYQIe-OSpPD.4faa1f82-7d88-354f-a880-a67d43a8b9e4%3Ftoken=Oi89Tj5Dgy6Apqh.css" rel="stylesheet">
+    <link href="static/fa/css/font-awesome.css%3Bjsessionid=7qtB95gAYIeLZmYQIe-OSpPD.4faa1f82-7d88-354f-a880-a67d43a8b9e4%3Ftoken=N0FgCxNhvx6kaAG.css" rel="stylesheet">
+    <link href="static/css/epfostyle.css%3Bjsessionid=7qtB95gAYIeLZmYQIe-OSpPD.4faa1f82-7d88-354f-a880-a67d43a8b9e4%3Ftoken=ylIQZ8F4yf0Bhlv.css" rel="stylesheet">
+    <link rel="shortcut icon" href="static/favicon.ico" />
+</head>
+
+<link href="static/css/flexslider.css%3Bjsessionid=7qtB95gAYIeLZmYQIe-OSpPD.4faa1f82-7d88-354f-a880-a67d43a8b9e4%3Ftoken=qEbxEBnxOwTWC5G.css" rel="stylesheet">
+
+
+<head>
+
+
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval'" />
+    <meta http-equiv="Content-Type" content="application/json; charset=UTF-8">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <meta http-equiv="PRAGMA" content="NO-CACHE">
+    <meta http-equiv="EXPIRES" content="0">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+</head>
+
+<html lang="en">
+
+    
+
+
+
+    <body>
+
+
+        
+
+
+<div class="py-1 py-1-hc" >            
+    <div  class="container msewa">  
+        <div class="row text-info" >
+            <div class="col-md-8">
+                <b>For EPF Balance Enquiry : </b> 1. Give a Missed call to <b>9966044425</b> or 2. SMS EPFOHO UAN < LAN > to <b>7738299899</b>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="float-end">
+                                <i class="fa fa-envelope"></i> Help Desk/Toll Free Number : </i><b>1800118005</b>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+
+                        <div class="py-1">            
+
+                            <div class="container">
+                                <header>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="logo">
+                                                <a href="login.html" title="Home" rel="home" >
+                                                    <img width="40px" class="national_emblem" src="static/images/emblem-dark.png" alt="national emblem">
+                                                    <img width="80px" class="epfo_logo" src="static/images/epfo_logo.png" alt="epfo">                                    
+                                                </a>                                
+                                                <p class="th1">कर्मचारी भविष्य निधि संगठन</p>
+                                                <p class="th2">Employees' Provident Fund Organisation</p>
+                                                <p class="th3">(श्रम एवं रोजगार मंत्रालय, भारत सरकार)</p>
+                                                <p class="th3">(Ministry of Labour & Employment, Govt. of India)</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="col-md-12 float-end">                        
+                                                <img height="105px" class="azadi float-end" src="static/images/azadi-ka-amrit-mahotsav.jpg" alt="Azadi ka Amrit Mahotsav">                                                
+                                                <img height="105px" class="g20 float-end" src="static/images/g20.jpg" alt="G20">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </header>
+                            </div>
+                        </div>
+
+        <div class="row row-login-1">
+            <div class="topheader" >
+                
+                <marquee id='marquee' class='marquee_text' scrollamount='6'><span class='marquee_span'><b>Please never respond to any call for sharing any personal details like Aadhaar, PAN, Bank details, OTP or request for any payment.</b></span><span class='marquee_span'><b>EPFO never calls members/pensioners to deposit any amount. Please do not make any payment, based on any such call.</b></span></marquee>
+                
+
+            </div> 
+        </div>
+
+
+
+        <div class="container content">
+            <section>
+
+                <div class="social_menu">
+                    <ul>      
+                        <li>
+                            Follow us on 
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_blank" href="https://youtube.com/socialepfo">
+                                <i class="fa fa-youtube-play "></i> | YouTube
+                            </a>
+                        </li>
+
+                        <li>
+                            <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/social_epfo">
+                                <i class="fa fa-instagram "></i> | Instagram
+                            </a>
+                        </li>
+
+                        <li>
+                            <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/socialepfo">
+                                <i class="fa fa-twitter-square"></i> | Twitter
+                            </a>
+                        </li>
+
+                        <li>
+                            <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/socialepfo">
+                                <i class="fa fa-facebook-square "></i> | Facebook
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="py-1" >
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-xl-10">
+                            <div id="div_page_msg" class="div_login_msg">                        
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="container py-1 py-1-login">
+                    <div class="row d-flex justify-content-center align-items-center h-100 mt-5">
+                        <div class="col-md-12">
+
+                            <div class="row">
+
+                                <div class="col-lg-4">
+
+
+                                    <div class="card mb-4">
+                                        <div class="card-header cheader">                                
+                                            Sign In | EPF Passbook & Claim Status
+                                        </div>
+                                        <div class="card-body cbody10 card-body-login" >
+                                            <form>
+                                                <input type="hidden" name="login-token" value="FAWUlCpG=MP9J=Gzf4QsOT5C4S9zdXhLckPtxh5vzYvQpA0PyZ6=sAjUWd=J1tBUiSepW2S9fLBi1juk00MWp1Q5fWn3lVY9nJ+nJgmqKcCPNHRLcxb1Y9Ux+TvpDLxO">
+                                                <div class="mb-3">
+                                                    <label for="username" class="form-label bold">UAN</label>
+                                                    <input type="number" class="form-control form-control-login" id="username" 
+                                                           maxlength="12"
+                                                           autocomplete="off"                                                           
+                                                           placeholder="" >
+
+                                                </div>
+
+                                                <div class="mb-3">
+                                                    <label for="password" class="form-label bold">Password</label>
+                                                    <input type="password" class="form-control form-control-login" id="password" 
+                                                           maxlength="100"
+                                                           autocomplete="off"                                                          
+                                                           placeholder="">
+                                                    <input type="hidden" class="form-control password1" id="password1" value="" name="password1" 
+                                                           autocomplete="off" 
+                                                           type="password" >
+
+                                                </div>
+                                                
+
+                                                
+                                                <div class="form-group mb-4">                                           
+                                                    <img id="captcha_id" name="imgCaptcha" src="data:image/jpg;base64,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">                                                    
+                                                    <a id="new_cap" href="login.html#"> 
+                                                        <i class="fa fa-fw fa-refresh refresh"></i>
+                                                    </a>
+                                                </div>
+
+                                                <div class="form-group mb-4">
+                                                    <input id="captcha" class="form-control captcha" name="captcha" value="" maxlength="5" type="text" >
+                                                </div>
+                                                
+
+                                                <div class="text-center pt-1 pb-1">
+                                                    <button id="login" class="btn btn-success btn-block fa-md mb-3 login-button"                                                             
+                                                            type="button">
+                                                        Sign In <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+
+                                                </div>
+
+
+
+                                                
+
+                                            </form>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-lg-7 rightpanel">
+
+                                    <div class="card ">
+                                        <div class="card-header card-header-login">
+                                            Featured
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="ul-login">
+                                                <li>
+                                                    1. This facility is to view the Member Passbook for the members registered on the Unified Member Portal.
+                                                </li>
+                                                <li>
+                                                    2. Passbook will be available after 6 Hours of registration at Unified Member Portal.
+                                                </li>
+                                                <li>
+                                                    3. Changes in the credentials at Unified Member Portal will be effective at this Portal after after 6 Hours.
+                                                </li>
+                                                <li>
+                                                    4. Passbook will have the entries which has been reconciled at the EPFO field offices.
+                                                </li>
+                                                <li>
+                                                    5. Passbook facility not be available for the Exempted Establishments Members.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <br />
+                                    <div class="row">
+
+                                        <div id="logincarousel">
+
+                                            <div class="flexslider">
+                                                <ul class="slides">
+                                                    <li>
+                                                        <img src="static/images/slide/1/C1.jpeg" class="slide-img-c" />
+                                                    </li>
+                                                    <li>
+                                                        <img src="static/images/slide/1/C2.jpeg" class="slide-img-c" />
+                                                    </li>
+                                                    <li>
+                                                        <img src="static/images/slide/1/C3.jpeg" class="slide-img-c" />
+                                                    </li>
+                                                    <li>
+                                                        <img src="static/images/slide/1/C4.jpeg" class="slide-img-c" />
+                                                    </li>
+                                                    <li>
+                                                        <img src="static/images/slide/short-code-missed-call.jpg" class="slide-img" />
+                                                    </li>
+                                                    <li>
+                                                        <img src="static/images/slide/nidhinikat.jpg" class="slide-img" />
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+
+
+        
+
+
+<div class="row border-top row-fc-1">
+</div>
+<div class="footer">
+    <div class="footer-div">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-2">
+            <div class="col-md-6 d-flex align-items-center">                                               
+                <span class="footer-epfo">© Employees' Provident Fund Organisation</span>
+            </div>
+
+            <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+                <span class="footer-epfo">
+                    Designed, Developed and Hosted @ DR , Secunderabad 
+                </span>
+                <span class="version" >[ Ver - 1.1.28 , 23-Apr-2024 ]</span>
+            </ul>
+        </footer>
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a rel="noopener noreferrer" target="_blank" href="https://www.epfindia.gov.in" class="nav-link px-2 text-info">EPFO</a></li>
+            <li class="nav-item"><a rel="noopener noreferrer" target="_blank" href="https://unifiedportal-mem.epfindia.gov.in/" class="nav-link px-2 text-info">Member Portal</a></li>
+            <li class="nav-item"><a rel="noopener noreferrer" target="_blank" href="https://epfigms.gov.in/" class="nav-link px-2 text-info">EPFO Grivance Portal</a></li>                    
+            <li class="nav-item">
+                <a rel="noopener noreferrer" target="_blank" href="https://youtube.com/socialepfo" class="nav-link px-2 text-info">
+                    <i class="fa fa-youtube-play "></i> | YouTube
+                </a>
+            </li> 
+            <li class="nav-item">
+                <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/social_epfo" class="nav-link px-2 text-info">
+                    <i class="fa fa-instagram "></i> | Instagram
+                </a>
+            </li>
+            <li class="nav-item">
+                <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/socialepfo" class="nav-link px-2 text-info">
+                    <i class="fa fa-twitter-square"></i> | Twitter
+                </a>
+            </li>
+            <li class="nav-item">
+                <a rel="noopener noreferrer" target="_blank" href="https://facebook.com/socialepfo" class="nav-link px-2 text-info">
+                    <i class="fa fa-facebook-square "></i> | Facebook
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+    </body>
+
+
+</html>
+
+<div class="modal-div">
+    <div class="row">
+        <div class="modal" id="loginotpmodal" tabindex="-1" role="dialog"
+             data-bs-backdrop="static" data-bs-keyboard="false"
+             aria-labelledby="loginotpmodal" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginotplabel">
+
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" name="login-otp-close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="loginotpdata">
+
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script nonce="6994857565011155" src="static/jquery/jquery-3.6.1.min.js%3Bjsessionid=7qtB95gAYIeLZmYQIe-OSpPD.4faa1f82-7d88-354f-a880-a67d43a8b9e4%3Ftoken=mpYu2WkYMObGPqJ"></script>
+<script nonce="6994857565011155" src="static/jquery/jquery-ui.min.js%3Bjsessionid=7qtB95gAYIeLZmYQIe-OSpPD.4faa1f82-7d88-354f-a880-a67d43a8b9e4%3Ftoken=oFXftl6l6mXTTHv"></script>
+<script nonce="6994857565011155" src="static/bootstrap/bootstrap.bundle.js%3Bjsessionid=7qtB95gAYIeLZmYQIe-OSpPD.4faa1f82-7d88-354f-a880-a67d43a8b9e4%3Ftoken=0bfCSgOxfaYHJQD"></script>
+<script nonce="6994857565011155" src="static/js/crypto-js.min.js%3Bjsessionid=7qtB95gAYIeLZmYQIe-OSpPD.4faa1f82-7d88-354f-a880-a67d43a8b9e4%3Ftoken=tZx75ZDwUQM0iaR"></script>
+<script nonce="6994857565011155" src="static/js/sha512.js%3Bjsessionid=7qtB95gAYIeLZmYQIe-OSpPD.4faa1f82-7d88-354f-a880-a67d43a8b9e4%3Ftoken=rSI9Slm8Hq3rPbO"></script>
+
+
+
+<script nonce="6994857565011155" src="static/jquery/jquery.flexslider.js%3Bjsessionid=7qtB95gAYIeLZmYQIe-OSpPD.4faa1f82-7d88-354f-a880-a67d43a8b9e4%3Ftoken=aetsWteiWK32tis"></script>
+<script nonce="6994857565011155">
+
+    $(document).ready(function () {
+
+
+        $('.flexslider').flexslider({
+            animation: "slide"
+        });
+
+        $('#username').on('keypress', function (e) {
+            if (e.which === 13) {
+                checkLogin($('#login'));
+            }
+        });
+        $('#password').on('keypress', function (e) {
+            if (e.which === 13) {
+                checkLogin($('#login'));
+            }
+        });
+
+        $("#login").click(function () {
+            checkLogin($('#login'));
+        });
+
+
+    
+        $('#captcha').on('keypress', function (e) {
+            if (e.which === 13) {
+                checkLogin($('#login'));
+            }
+        });
+
+        $("#new_cap").click(function () {
+            getcap();
+        });
+
+    
+
+
+    });
+
+
+
+    (function ($) {
+        $.fn.button = function (action) {
+            if (action === 'loading' && this.data('loading-text')) {
+                this.data('original-text', this.html()).html(this.data('loading-text')).prop('disabled', true);
+            }
+            if (action === 'reset' && this.data('original-text')) {
+                this.html(this.data('original-text')).prop('disabled', false);
+            }
+        };
+    }(jQuery));
+
+    function checkLogin(btn) {
+        $("#login").html('Sign In <i class="fa fa-spinner fa-spin" aria-hidden="true">');
+        $('#div_page_msg').html('');
+        if (chkDigit() === false)
+        {
+            $("#login").html('Sign In <i class="fa fa-sign-in" aria-hidden="true">');
+            return;
+        }
+        var data = {};
+        data["username"] = $("#username").val();
+        data["password"] = $("#password1").val();
+        data["token"] = $('input[name="login-token"]').val();
+
+    
+        data["answer"] = $("#captcha").val();
+    
+        $.ajax({
+            type: "POST",
+            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+            url: '/MemberPassBook/passbook/api/ajax/final/checkLogin',
+            data: data,
+            dataType: 'json',
+            timeout: 1000000,
+            success: function (data) {
+                var result = data;
+
+                if (result.success) {
+                    if (result.otp === false) {
+                        page_Redirect(result.object);
+                    } else {
+                        $("#login").html('Sign In <i class="fa fa-sign-in" aria-hidden="true">');
+                        if ($(document).find('#loginotpdata').length) {
+                            $(document).find('#loginotplabel').html('Verify OTP');
+                            $(document).find('#loginotpdata').html(result.object);
+                            $(document).find('#loginotpmodal').modal('show');
+                            otp();
+                            const inputs = document.querySelectorAll(".otp-field > input");
+                            $(inputs[0]).focus();
+                        }
+                    }
+                } else {
+                    $("#login").html('Sign In <i class="fa fa-sign-in" aria-hidden="true">');
+                    var err = '<div class="alert alert-warning alert-dismissible fade show" role="alert">' + result.message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
+                    $('#div_page_msg').html(err);
+                    getcap();
+                }
+
+
+            },
+            error: function (x, t, m) {
+                $("#login").html('Sign In <i class="fa fa-sign-in" aria-hidden="true">');
+                if (t === "timeout") {
+                } else {
+                    if (m.length > 0)
+                    {
+                        var err = '<div class="alert alert-warning alert-dismissible fade show" role="alert">' + m + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
+                        $('#div_page_msg').html(err);
+                        getcap();
+                        $("#login").html('Sign In <i class="fa fa-sign-in" aria-hidden="true">');
+                    }
+                }
+            }
+        });
+    }
+
+
+    function page_Redirect(t)
+    {
+        window.location.replace('getting_data?token=' + t);
+    }
+
+
+
+    $(document).ready(function () {
+
+    
+        setInterval(function () {
+            getcap();
+        }, 240000);
+    
+    });
+
+    
+    function getcap() {
+        var url = '/MemberPassBook/passbook/ajax/get-new-captcha';
+        var _html;
+        $.ajax({
+            type: "POST",
+            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+            url: url,
+            dataType: 'json',
+            timeout: 100000,
+            success: function (data) {
+                var result = data;
+                _html = result.html;
+                let tok = result.object;
+                if (result.success) {
+                    $('#captcha_id').attr('src', '');
+                    $('#captcha_id').attr('src', 'data:image/jpg;base64,' + _html);
+                    $('input[name="login-token"]').val(tok);
+                }
+            },
+            error: function (x, t, m) {
+            }});
+    }
+    
+
+
+    function passEnDec()
+    {
+        var pass = $("#password").val();
+        var passwordHash = CryptoJS.MD5(pass);
+        var fhashValue = hex_sha512("kr9rk" + passwordHash.toString() + "kr9rk");
+        $("#password1").val(fhashValue);
+    }
+
+
+    function reset()
+    {
+        document.getElementById("username").value = "";
+        document.getElementById("password").value = "";
+    
+        document.getElementById("captcha").value = "";
+    
+        document.getElementById('username').focus();
+        return false;
+    }
+
+
+    function chkDigit()
+    {
+        var uan = document.getElementById("username").value;
+        var pass = document.getElementById("password").value;
+        if (uan.length === 0)
+        {
+            alert("Please Enter UAN");
+            document.getElementById('username').focus();
+            return false;
+        }
+        if (pass.length === 0) {
+            alert("Please Enter password");
+            document.getElementById('password').focus();
+            return false;
+        }
+        if (uan.length !== 12)
+        {
+            alert("Please Enter Valid UAN");
+            document.getElementById('uan').focus();
+            return false;
+        }
+
+    
+
+        var captcha = document.getElementById("captcha").value;
+        if (captcha.length === 0)
+        {
+            alert("Please Enter Captcha");
+            document.getElementById('captcha').focus();
+            return false;
+        }
+        if (captcha.length === 0)
+        {
+            alert("Please Enter Captcha code");
+            document.getElementById('captcha').value = "";
+            document.getElementById('captcha').focus();
+            return false;
+        }
+    
+
+        passEnDec();
+        return true;
+    }
+
+    function validNumOnly(enteredKey)
+    {
+        if (!(event.keyCode >= 48 && event.keyCode <= 57))
+        {
+            alert("UAN Contains Only Numeric Value");
+            document.getElementById('username').focus();
+            return false;
+        }
+    }
+
+//    function captcha() {
+//        return true;
+//    }
+
+
+
+    function otp() {
+
+
+        var interval = setInterval(function () {
+            if ($('.countdown').length === 0) {
+                clearInterval(interval);
+            }
+            var timer2 = $('.countdown').html();
+            var timer = timer2.split(':');
+            var minutes = parseInt(timer[0], 10);
+            var seconds = parseInt(timer[1], 10);
+            --seconds;
+            minutes = (seconds < 0) ? --minutes : minutes;
+            if (minutes === 0 && seconds === 0) {
+                clearInterval(interval);
+                $(document).find('#loginotpmodal').modal('hide');
+                $(document).find('#loginotplabel').html('');
+                $(document).find('#loginotpdata').html('');
+            }
+            seconds = (seconds < 0) ? 59 : seconds;
+            seconds = (seconds < 10) ? '0' + seconds : seconds;
+            $('.countdown').html(minutes + ':' + seconds);
+        }, 1000);
+
+        const inputs = document.querySelectorAll(".otp-field > input");
+        const button = document.querySelector(".btn-verify");
+
+        window.addEventListener("load", () => inputs[0].focus());
+        button.setAttribute("disabled", "disabled");
+
+        inputs[0].addEventListener("paste", function (event) {
+            event.preventDefault();
+
+            const pastedValue = (event.clipboardData || window.clipboardData).getData("text");
+            const otpLength = inputs.length;
+
+            for (let i = 0; i < otpLength; i++) {
+                if (i < pastedValue.length) {
+                    inputs[i].value = pastedValue[i];
+                    inputs[i].removeAttribute("disabled");
+                    inputs[i].focus;
+                } else {
+                    inputs[i].value = ""; // Clear any remaining inputs
+                    inputs[i].focus;
+                }
+            }
+        });
+
+        inputs.forEach((input, index1) => {
+            input.addEventListener("keyup", (e) => {
+                const currentInput = input;
+                const nextInput = input.nextElementSibling;
+                const prevInput = input.previousElementSibling;
+
+                if (currentInput.value.length > 1) {
+                    currentInput.value = "";
+                    return;
+                }
+
+                if (
+                        nextInput &&
+                        nextInput.hasAttribute("disabled") &&
+                        currentInput.value !== ""
+                        ) {
+                    nextInput.removeAttribute("disabled");
+                    nextInput.focus();
+                }
+
+                if (e.key === "Backspace") {
+                    inputs.forEach((input, index2) => {
+                        if (index1 <= index2 && prevInput) {
+                            input.setAttribute("disabled", true);
+                            input.value = "";
+                            prevInput.focus();
+                        }
+                    });
+                }
+
+                button.classList.remove("active");
+                button.setAttribute("disabled", "disabled");
+
+                const inputsNo = inputs.length;
+                if (!inputs[inputsNo - 1].disabled && inputs[inputsNo - 1].value !== "") {
+                    button.classList.add("active");
+                    button.removeAttribute("disabled");
+
+                    return;
+                }
+            });
+        });
+    }
+
+    $(document).on('click', "*[name='login-otp-close']", function (e, t) {
+        e.preventDefault();
+        $(document).find('#loginotpmodal').modal('hide');
+        $(document).find('#loginotplabel').html('');
+        $(document).find('#loginotpdata').html('');
+    });
+
+
+    $(document).on('click', "*[name='login-otp-reset']", function (e, t) {
+        e.preventDefault();
+        const inputs = document.querySelectorAll(".otp-field > input");
+        const button = document.querySelector(".btn-verify");
+        button.setAttribute("disabled", "disabled");
+
+        $(inputs).each(function ()
+        {
+            this.value = '';
+            $(this).attr('disabled', 'disabled');
+        });
+        $(inputs[0]).removeAttr('disabled');
+        $(inputs[0]).focus();
+    });
+
+
+    $(document).on('click', "*[name='login-otp-verification']", function (e, t) {
+        e.preventDefault();
+        let token = $(this).data().token;
+        let otp = '';
+        const inputs = document.querySelectorAll(".otp-field > input");
+        $(inputs).each(function ()
+        {
+            otp = otp + (this.value);
+        });
+
+        if (otp.length !== 6) {
+            alert('Invalid OTP');
+            return;
+        }
+        if (token === undefined) {
+            alert('Invalid Token');
+            return;
+        }
+
+        var data = {};
+        data["token"] = token;
+        data["otp"] = otp;
+        var url = '/MemberPassBook/passbook/api/ajax/verify-login-otp';
+        $.ajax({
+            type: "POST",
+            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+            url: url,
+            data: data,
+            dataType: 'json',
+            global: false,
+            timeout: 100000,
+            success: function (data) {
+                var result = data;
+                if (result.success) {
+                    page_Redirect(result.data);
+                } else {
+                    alert('error');
+                }
+            },
+            error: function (x, t, m) {
+                if (t === "timeout") {
+                    alert(t);
+                } else {
+                    if (x.responseText.length > 0)
+                    {
+                        alert(x.responseText);
+                    }
+                }
+            }
+        });
+
+    });
+
+
+    $(document).on('click', "*[class='login-otp-resend']", function (e, t) {
+        e.preventDefault();
+
+        const inputs = document.querySelectorAll(".otp-field > input");
+        const button = document.querySelector(".btn-verify");
+        button.setAttribute("disabled", "disabled");
+
+        $(inputs).each(function ()
+        {
+            this.value = '';
+            $(this).attr('disabled', 'disabled');
+        });
+        $(inputs[0]).removeAttr('disabled');
+        $(inputs[0]).focus();
+
+
+        var data = {};
+        var url = '/MemberPassBook/passbook/api/ajax/resend-login-otp';
+        $.ajax({
+            type: "POST",
+            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+            url: url,
+            data: data,
+            dataType: 'json',
+            global: false,
+            timeout: 100000,
+            success: function (data) {
+                var result = data;
+                if (result.success) {
+                    $(document).find('#otp-sent-msg').html(result.data);
+                    $(e.target).removeClass('login-otp-resend');
+                    $(e.target).remove();
+                    $(document).find('#loginotpform').find('.countdown').html('1:00');
+                    const inputs = document.querySelectorAll(".otp-field > input");
+                    $(inputs[0]).removeAttr('disabled');
+                    $(inputs[0]).focus();
+
+                } else {
+                    alert('error');
+                }
+            },
+            error: function (x, t, m) {
+                if (t === "timeout") {
+                    alert(t);
+                } else {
+                    if (x.responseText.length > 0)
+                    {
+                        alert(x.responseText);
+                    }
+                }
+            }
+        });
+
+    });
+
+
+</script>
+<script nonce="6994857565011155">
+    $("#marquee").mouseover(function () {
+        let marquee = document.getElementById('marquee');
+        marquee.stop();
+    });
+    $("#marquee").mouseout(function () {
+        let marquee = document.getElementById('marquee');
+        marquee.start();
+    });
+</script>
